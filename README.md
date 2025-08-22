@@ -12,10 +12,7 @@ Built with **React (frontend)**, **Node.js + Express (backend)**, and integrated
 
 ## 🎥 Demo Video
 
-<video width="600" controls>
-  <source src="./assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the demo](./assets/demo.mp4)](./assets/demo.mp4)
 
 ---
 
@@ -43,6 +40,7 @@ ai-exam-paper-generator/
 │
 ├── exam-frontend/ # React frontend
 ├── exam-backend/ # Express backend
+├── assets/ # demo video
 ├── .gitignore
 ├── .env.example # Example environment variables
 └── README.md
