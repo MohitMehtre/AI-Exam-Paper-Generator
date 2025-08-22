@@ -2,6 +2,9 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import path from "path";
+import { fileURLToPath } from "url";
+
 
 dotenv.config();
 
@@ -42,6 +45,16 @@ app.post("/generate-exam", async (req, res) => {
     res.status(500).json({ error: "Failed to generate exam" });
   }
 });
+
+// ------------------ Trying to deploy and host Serve React frontend ------------------
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use(express.static(path.join(__dirname, "public")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+// ----------------------------------------------------------
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
