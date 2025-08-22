@@ -1,7 +1,7 @@
 # AI Exam Paper Generator
 
 A full-stack web application that generates customized exam papers using AI.  
-Built with **React (frontend)**, **Node.js + Express (backend)**, and integrated with **Gemini AI API** for intelligent paper generation.  
+Built with **React + Vite + Tailwind CSS (frontend)**, **Node.js + Express (backend)**, and integrated with **Gemini AI API** for intelligent paper generation.  
 
 ---
 
@@ -26,10 +26,10 @@ Built with **React (frontend)**, **Node.js + Express (backend)**, and integrated
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend**: React, TailwindCSS  
+- **Frontend**: React, Vite, TailwindCSS  
 - **Backend**: Node.js, Express.js  
 - **AI Integration**: Gemini API  
-- **Hosting**: Vercel / Render  
+- **Hosting**: Vercel or Netlify / Render  
 - **Version Control**: Git & GitHub  
 
 ---
