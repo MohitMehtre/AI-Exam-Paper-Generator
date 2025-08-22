@@ -5,6 +5,20 @@ Built with **React (frontend)**, **Node.js + Express (backend)**, and integrated
 
 ---
 
+### Live Demo  
+👉 [View Live Project] Sorry Not added yet  
+
+---
+
+## 🎥 Demo Video
+
+<video width="600" controls>
+  <source src="./assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
 ## 🚀 Features
 - Generate exam papers based on subject, topic, and difficulty.  
 - Customizable number of questions and paper format.  
@@ -39,7 +53,7 @@ ai-exam-paper-generator/
 
 ### 1. Clone the repo  
 ```bash
-git clone https://github.com/yourusername/ai-exam-paper-generator.git
+git clone https://github.com/MohitMehtre/AI-Exam-Paper-Generator.git
 cd ai-exam-paper-generator
 ```
 
