@@ -12,7 +12,7 @@ Built with **React (frontend)**, **Node.js + Express (backend)**, and integrated
 
 ## 🎥 Demo Video
 
-[![Watch the demo](./assets/demo.mp4)](./assets/demo.mp4)
+[![Watch the demo](./assets/demo.gif)](./assets/demo.mp4)
 
 ---
 
