@@ -36,7 +36,7 @@ Built with **React + Vite + Tailwind CSS (frontend)**, **Node.js + Express (back
 
 ## 📂 Project Structure
 ```
-ai-exam-paper-generator/
+AI-Exam-Paper-Generator/
 │
 ├── exam-frontend/ # React frontend
 ├── exam-backend/ # Express backend
@@ -52,7 +52,7 @@ ai-exam-paper-generator/
 ### 1. Clone the repo  
 ```bash
 git clone https://github.com/MohitMehtre/AI-Exam-Paper-Generator.git
-cd ai-exam-paper-generator
+cd AI-Exam-Paper-Generator
 ```
 
 ### 2. Install dependencies
