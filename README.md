@@ -6,7 +6,7 @@ Built with **React + Vite + Tailwind CSS (frontend)**, **Node.js + Express (back
 ---
 
 ### Live Demo  
-👉 [View Live Project] Sorry Not added yet  
+👉 [View Live Project](https://ai-exam-paper-generator.onrender.com)  
 
 ---
 
